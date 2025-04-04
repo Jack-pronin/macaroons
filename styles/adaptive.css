@@ -1,0 +1,412 @@
+@media screen and (max-width: 1179px){
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .advantages__container {
+        grid-template-columns: repeat(2, 221px);
+        grid-gap: 80px 54px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .advantage__number {
+        margin: 0 auto;
+    }
+
+    .products__items {
+        grid-template-columns: 263px 263px;
+        grid-row-gap: 136px;
+        justify-content: center;
+    }
+
+    .order__strawberry-1 {
+        left: 12px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .main {
+        padding: 72px 0 420px 0;
+        position: relative;
+    }
+
+    .main__container {
+        grid-template-columns: 580px;
+    }
+
+    .main__title {
+        margin-top: unset;
+    }
+
+    .main__description {
+        position: relative;
+        z-index: 2;
+    }
+
+    .main__action {
+        margin-bottom: unset;
+        position: relative;
+        z-index: 2;
+    }
+
+    .main__image {
+        display: flex;
+        position: absolute;
+        bottom: 62px;
+        right: 55px;
+    }
+
+    .cooking__container {
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-gap: unset;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .cooking__title {
+        max-width: 475px;
+    }
+
+    .cooking__text {
+        max-width: 671px;
+        margin-top: 61px;
+        margin-bottom: 40px;
+    }
+
+    .cooking__image {
+        grid-column: unset;
+        grid-row: unset;
+        justify-self: unset;
+        display: flex;
+        width: 302px;
+    }
+
+    .cooking__img {
+        position: unset;
+    }
+
+    .order {
+        position: relative;
+    }
+
+    .order__container {
+        grid-template-columns: minmax(280px, 423px);
+        position: unset;
+    }
+
+    .order__image {
+        max-width: 352px;
+        position: absolute;
+        top: 358px;
+        left: 50%;
+    }
+
+    .order__img {
+        max-width: 100%;
+    }
+
+    .order__strawberry-1 {
+        top: 337px;
+        left: 372px;
+    }
+
+    .order__strawberry-2 {
+        bottom: 504px;
+        right: 108px;
+    }
+
+}
+
+@media screen and (max-width: 979px){
+    .header__container {
+        grid-template-columns: 113px 1fr;
+    }
+
+    .header__container > .contacts{
+        display: none;
+    }
+
+    .menu {
+        margin-left: unset;
+        justify-self: center;
+        margin-right: 115px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header__container {
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+    }
+
+    .header__container > .logo{
+        justify-self: center;
+    }
+
+    .menu {
+        margin-right: unset;
+    }
+
+    .main {
+        padding-top: 57px;
+        padding-bottom: 43px;
+    }
+
+    .main__container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .main__title {
+        margin-bottom: 40px;
+    }
+
+    .main__description {
+        margin-bottom: 40px;
+    }
+
+    .main__btn {
+        margin-bottom: 38px;
+    }
+
+    .main__image {
+        display: block;
+        position: relative;
+        bottom: unset;
+        right: unset;
+        grid-column: unset;
+        grid-row: unset;
+    }
+
+    .cooking {
+        padding-top: 100px;
+    }
+
+    .advantages {
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+
+    .products {
+        padding: 100px 0;
+    }
+
+    .order {
+        padding: 100px 0 77px 0;
+    }
+
+    .order__image {
+        margin-right: 20px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 609px){
+    .main__container {
+        grid-template-columns: 1fr;
+    }
+
+    .main__title {
+        font-size: 32px;
+    }
+
+    .main__description, .cooking__text, .order__text {
+        font-size: 16px;
+    }
+
+    .main__img {
+        width: 250px
+    }
+
+    .main__image::before, .main__image::after {
+        width: 140px;
+        height: 140px;
+        top: calc(50% - 70px);
+        left: calc(50% - 70px);
+    }
+
+    .cooking__title, .products__title, .order__title {
+        font-size: 30px;
+    }
+
+    .advantages__container {
+        grid-template-columns: repeat(2, 165px);
+        grid-gap: 36px 15px;
+    }
+
+    .advantage__title {
+        font-size: 18px;
+    }
+
+    .advantage__text {
+        font-size: 13px;
+    }
+
+    .products__items {
+        margin-top: 122px;
+        grid-template-columns: 263px;
+        grid-row-gap: 136px;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+        justify-items: center;
+    }
+
+    .footer__logo {
+        align-self: unset;
+        order: 1;
+    }
+
+    .instagram {
+        grid-column: unset;
+        grid-row: unset;
+        order: 3;
+    }
+
+    .footer__contacts {
+        grid-column: unset;
+        grid-row: unset;
+        justify-self: unset;
+        order: 2;
+    }
+
+    .rights {
+        order: 4;
+        margin-top: unset;
+    }
+
+    .order__strawberry-1 {
+        top: 195px;
+        right: 13px;
+        left: unset;
+
+    }
+
+    .gift {
+        transform: scale(0.7);
+        bottom: 15px;
+        right: 15px;
+    }
+
+}
+
+@media screen and (max-width: 424px){
+    .header__container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header__burger {
+        display: block;
+        justify-self: end;
+    }
+
+    .header__container > .logo {
+        justify-self: start;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background-color: #000000c9;
+        z-index: 999;
+    }
+
+    .menu__list {
+        margin-top: 45px;
+        display: grid;
+        width: unset;
+        grid-template-columns: 1fr;
+        grid-row-gap: 25px;
+        justify-items: center;
+    }
+
+    .menu.open {
+        display: block;
+    }
+
+    .menu__link {
+        color: rgb(235, 168, 177);
+    }
+
+    .menu__link:hover {
+        border-color: rgb(235, 168, 177);
+    }
+
+    .menu__close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: rgb(235, 168, 177);
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+
+    .order__strawberry-1 {
+        z-index: -1;
+    }
+
+     .order__strawberry-2 {
+         display: none;
+     }
+
+    .order__strawberry-1-img {
+        width: 72px;
+    }
+
+    .order__image {
+        display: none;
+    }
+
+
+    .order__input {
+        width: 100%;
+    }
+
+    .order__btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 374px){
+    .advantages__container {
+        grid-template-columns: 220px;
+    }
+
+    .gift {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .main__title {
+        font-size: 27px;
+    }
+
+    .cooking__title, .products__title {
+        font-size: 23px;
+    }
+
+    .cooking__text, .main__description {
+        font-size: 14px;
+    }
+}
